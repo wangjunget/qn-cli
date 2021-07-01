@@ -1,0 +1,27 @@
+{
+  "name": "qn-cli",
+  "version": "1.0.0",
+  "description": "千牛小程序脚手架",
+  "main": "index.js",
+  "keywords": [
+    "千牛",
+    "脚手架",
+    "cli"
+  ],
+  "scripts": {
+    "version": "node ./bin/qn.js --version",
+    "sim": "node ./bin/qn.js sim",
+    "build-preview": "node ./bin/qn.js build-preview",
+    "pre-release": "node ./bin/qn.js pre-release"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0",
+    "shelljs": "^0.8.4",
+    "zx": "^1.14.2"
+  }
+}
