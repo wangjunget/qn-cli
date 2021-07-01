@@ -1,6 +1,6 @@
 {
   "name": "qn-scaf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "千牛小程序脚手架",
   "main": "index.js",
   "keywords": [
@@ -8,6 +8,9 @@
     "脚手架",
     "cli"
   ],
+  "bin": {
+    "qn": "bin/qn.js"
+  },
   "scripts": {
     "version": "node ./bin/qn.js --version",
     "sim": "node ./bin/qn.js sim",
