@@ -1,5 +1,5 @@
 {
-  "name": "qianniu-cli",
+  "name": "qn-scaf",
   "version": "1.0.0",
   "description": "千牛小程序脚手架",
   "main": "index.js",
